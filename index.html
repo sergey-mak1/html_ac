@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Nat Geo Wild</title>
+</head>
+<body>
+ <header class="page-head">
+    <a href="https://htmlacademy.ru"><img class="logo" src="image/logo.png" alt="logo"></a>
+    <nav>
+    <ul class="nav-list">
+        <li class="nav-item nav-item-active">
+            <a href="#" >Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" >About US</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" >Goals</a>
+        </li>
+    </ul>
+</nav>
+<ul class="nav-list-button">
+    <li class="nav-item-button">
+        <button type="button" class="button-head">
+             <span class="visually-hidden">Search</span>
+             <svg width="31" height="31" viewBox="0 0 31 31" fill="white"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M30.5256 26.4414L24.6834 20.5991C24.4197 20.3354 24.0622 20.1889 23.6872 20.1889H22.7321C24.3494 18.1204 25.3104 15.5187 25.3104 12.6884C25.3104 5.95548 19.8549 0.5 13.122 0.5C6.38907 0.5 0.933594 5.95548 0.933594 12.6884C0.933594 19.4213 6.38907 24.8768 13.122 24.8768C15.9523 24.8768 18.554 23.9158 20.6225 22.2985V23.2536C20.6225 23.6286 20.769 23.9861 21.0327 24.2498L26.8749 30.092C27.4258 30.6428 28.3165 30.6428 28.8614 30.092L30.5197 28.4337C31.0706 27.8829 31.0706 26.9922 30.5256 26.4414ZM13.122 20.1889C8.9791 20.1889 5.62144 16.8371 5.62144 12.6884C5.62144 8.54551 8.97324 5.18784 13.122 5.18784C17.2649 5.18784 20.6225 8.53965 20.6225 12.6884C20.6225 16.8313 17.2707 20.1889 13.122 20.1889Z" />
+             </svg>
+        </button>
+    </li>
+    <li class="nav-item-button">
+        <button type="button" class="button-head">
+            <span class="visually-hidden">Profile</span>
+            <svg width="25" height="24" viewBox="0 0 25 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.4336 0.333328C13.9807 0.333328 15.4645 0.94791 16.5584 2.04187C17.6524 3.13583 18.267 4.61957 18.267 6.16666C18.267 7.71376 17.6524 9.19749 16.5584 10.2915C15.4645 11.3854 13.9807 12 12.4336 12C10.8865 12 9.40281 11.3854 8.30885 10.2915C7.21488 9.19749 6.6003 7.71376 6.6003 6.16666C6.6003 4.61957 7.21488 3.13583 8.30885 2.04187C9.40281 0.94791 10.8865 0.333328 12.4336 0.333328ZM12.4336 14.9167C18.8795 14.9167 24.1003 17.5271 24.1003 20.75V23.6667H0.766968V20.75C0.766968 17.5271 5.9878 14.9167 12.4336 14.9167Z"/>
+                </svg>
+        </button>
+    </li>
+    <li class="nav-item-button">
+        <button type="button" class="button-head">
+            <span class="visually-hidden">Menu</span>
+            <svg width="25" height="22" viewBox="0 0 25 22" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.183594 2.25C0.183594 1.78587 0.367968 1.34075 0.696157 1.01256C1.02435 0.684375 1.46946 0.5 1.93359 0.5H22.9336C23.3977 0.5 23.8428 0.684375 24.171 1.01256C24.4992 1.34075 24.6836 1.78587 24.6836 2.25C24.6836 2.71413 24.4992 3.15925 24.171 3.48744C23.8428 3.81563 23.3977 4 22.9336 4H1.93359C1.46946 4 1.02435 3.81563 0.696157 3.48744C0.367968 3.15925 0.183594 2.71413 0.183594 2.25ZM0.183594 11C0.183594 10.5359 0.367968 10.0908 0.696157 9.76256C1.02435 9.43437 1.46946 9.25 1.93359 9.25H22.9336C23.3977 9.25 23.8428 9.43437 24.171 9.76256C24.4992 10.0908 24.6836 10.5359 24.6836 11C24.6836 11.4641 24.4992 11.9092 24.171 12.2374C23.8428 12.5656 23.3977 12.75 22.9336 12.75H1.93359C1.46946 12.75 1.02435 12.5656 0.696157 12.2374C0.367968 11.9092 0.183594 11.4641 0.183594 11ZM0.183594 19.75C0.183594 19.2859 0.367968 18.8408 0.696157 18.5126C1.02435 18.1844 1.46946 18 1.93359 18H12.4336C12.8977 18 13.3428 18.1844 13.671 18.5126C13.9992 18.8408 14.1836 19.2859 14.1836 19.75C14.1836 20.2141 13.9992 20.6592 13.671 20.9874C13.3428 21.3156 12.8977 21.5 12.4336 21.5H1.93359C1.46946 21.5 1.02435 21.3156 0.696157 20.9874C0.367968 20.6592 0.183594 20.2141 0.183594 19.75Z" />
+                </svg>
+        </button>
+    </li>    
+ </header> 
+<main class="content">
+    <img class="slogan" src="image/li_n.svg" alt="li_n">
+    <div class="content_text">
+        <h2>Why killed animals</h2>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam feugiat aliquam amet, enim etiam mattis ac tortor. Diam nunc, conguer 
+        </p>
+    </div>
+    <button type="button" class="button-mouse">
+        <span class="visually-hidden">Mouse</span>
+        <svg width="81" height="99" viewBox="0 0 81 99" fill="white" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_5_73)">
+        <path d="M40.4281 78.25H40.5C51.5946 78.25 60.625 69.2225 60.625 58.125V40.875C60.625 29.8321 51.6349 20.8247 40.5546 20.75H40.3821C29.3421 20.8132 20.375 29.8264 20.375 40.875V58.125C20.375 69.2225 29.3709 78.25 40.4281 78.25ZM26.125 40.875C26.1303 37.0716 27.6406 33.4248 30.3259 30.7314C33.0113 28.0379 36.6535 26.5167 40.4569 26.5C48.4063 26.5172 54.875 32.9659 54.875 40.875V58.125C54.875 66.0514 48.4264 72.5 40.5 72.5H40.4281C32.4098 72.5 26.125 66.1865 26.125 58.125V40.875Z" />
+        <path d="M37.625 32.25H43.375V49.5H37.625V32.25Z"/>
+        </g>
+        <defs>
+        <filter id="filter0_d_5_73" x="-14" y="-5" width="109" height="109" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset/>
+        <feGaussianBlur stdDeviation="10"/>
+        <feComposite in2="hardAlpha" operator="out"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5_73"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5_73" result="shape"/>
+        </filter>
+        </defs>
+        </svg>
+    </button>
+    <button type="button" class="play_movie">
+        <span class="visually-hidden">play-movie</span>
+        <svg width="45" height="45" viewBox="0 0 45 45" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.5498 12.9287C17.209 12.5508 18.0264 12.4893 18.6768 12.9639L31.333 20.6982C31.957 21.085 32.3438 21.7617 32.3438 22.5C32.3438 23.2383 31.957 23.915 31.333 24.3018L18.6768 32.0361C18.0264 32.4316 17.209 32.4492 16.5498 32.0713C15.8818 31.7021 15.4688 30.999 15.4688 30.2344V14.6865C15.4688 14.001 15.8818 13.2979 16.5498 12.9287ZM45 22.5C45 34.9277 34.9277 45 22.5 45C10.0723 45 0 34.9277 0 22.5C0 10.0723 10.0723 0 22.5 0C34.9277 0 45 10.0723 45 22.5ZM22.5 4.21875C12.4014 4.21875 4.21875 12.4014 4.21875 22.5C4.21875 32.5986 12.4014 40.7812 22.5 40.7812C32.5986 40.7812 40.7812 32.5986 40.7812 22.5C40.7812 12.4014 32.5986 4.21875 22.5 4.21875Z"/>
+            </svg>
+            Watch The Movie
+ </main>  
+</body>
+</html>
